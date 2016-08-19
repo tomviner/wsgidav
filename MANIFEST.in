@@ -1,0 +1,33 @@
+include *.conf
+include *.md
+include *.png
+include *.py
+include *.rst
+include *.sample
+include *.txt
+include .coveragerc
+include LICENSE
+include THANKS
+include TODO
+include tox.ini
+recursive-include doc *.bat
+recursive-include doc *.conf
+recursive-include doc *.gif
+recursive-include doc *.js
+recursive-include doc *.md
+recursive-include doc *.odt
+recursive-include doc *.pdn
+recursive-include doc *.png
+recursive-include doc *.py
+recursive-include doc *.rst
+recursive-include doc *.txt
+recursive-include doc Makefile
+recursive-include tests *.conf
+recursive-include tests *.py
+recursive-include tests *.txt
+recursive-include tools *.bat
+recursive-include wsgidav *.crt
+recursive-include wsgidav *.csr
+recursive-include wsgidav *.key
+recursive-include wsgidav *.py
+recursive-include wsgidav *.txt
